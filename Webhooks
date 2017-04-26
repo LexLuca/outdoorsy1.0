@@ -1,0 +1,7 @@
+<?php
+
+$VERIFY_TOKEN = 'outdoorsyonepointzero';
+
+if($_REQUEST['hub_verify_token']) = $VERIFY_TOKEN {
+echo $_REQUEST['hub_challenge'];
+}
